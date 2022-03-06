@@ -1,13 +1,21 @@
-// import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Courses from './Pages/Courses';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <div className='App'>
-      <h1 class='text-3xl font-bold underline'>Hello world!</h1>
-      <button className='bg-orange-500 font-bold text-white rounded p-2'>
-        Click Me
-      </button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/courses' element={<Courses />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
