@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      <div className='text-white font-mont'>
+      <div className='text-white font-mont fixed inset-0 z-50'>
         <div
           className={`flex bg-theme justify-between items-center p-2 shadow-lg ${
             showMenu == '' && 'md:flex-col'

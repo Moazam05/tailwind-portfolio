@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <Header />
-      <div className='content'>{children}</div>
+      <div className='content font-mont'>{children}</div>
       <Footer />
     </React.Fragment>
   );
