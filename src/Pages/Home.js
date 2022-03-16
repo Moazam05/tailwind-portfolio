@@ -6,8 +6,11 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiGatsby,
+  SiJavascript,
+  SiPython,
 } from 'react-icons/si';
-import { DiSass } from 'react-icons/di';
+import { DiSass, DiCss3 } from 'react-icons/di';
+import { AiFillHtml5 } from 'react-icons/ai';
 
 import Layout from '../components/Layout';
 
@@ -77,7 +80,7 @@ const Home = () => {
             />
             <SiNextdotjs
               size={150}
-              color='#000'
+              color='#36454f'
               className='w-full text-center mt-20'
             />
             <SiGatsby
@@ -85,6 +88,51 @@ const Home = () => {
               color='#663399'
               className='w-full text-center mt-20 animate-bounce'
             />
+            <AiFillHtml5
+              size={150}
+              color='#e44d26'
+              className='w-full text-center mt-20'
+            />
+            <DiCss3
+              size={150}
+              color='#2c9bd4'
+              className='w-full text-center mt-20 animate-bounce'
+            />
+            <SiJavascript
+              size={150}
+              color='#ffcd3a'
+              className='w-full text-center mt-20 animate-bounce'
+            />
+            <SiPython
+              size={150}
+              color='#346c99'
+              className='w-full text-center mt-20'
+            />
+          </div>
+        </div>
+        {/* JavaScript Buff */}
+        <div className='my-5'>
+          <div className='text-center h-52 bg-primary'>
+            <h1 className='text-white font-bold text-4xl py-10'>
+              Yes You Are Right... I am Javascript Buff
+            </h1>
+          </div>
+
+          <div className='md:mx-5 mx-32 shadow-2xl rounded-lg bg-gray-50 -mt-20 hover:bg-gray-700 hover:text-white'>
+            <div className='h-96'>
+              <lottie-player
+                src='https://assets6.lottiefiles.com/packages/lf20_sSF6EG.json'
+                background='transparent'
+                speed='1'
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div className='text-xl font-semibold my-5 md:px-5 px-14 py-10'>
+              Javascript is one of the most top-ranked programming languages
+              because of its ubiquitous us on all platform and mass adoption.
+              Main use cases: Web Development.
+            </div>
           </div>
         </div>
       </div>
