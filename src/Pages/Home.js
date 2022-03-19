@@ -111,7 +111,7 @@ const Home = () => {
           </div>
         </div>
         {/* JavaScript Buff */}
-        <div className='my-5'>
+        <div className='my-20'>
           <div className='text-center h-52 bg-primary'>
             <h1 className='text-white font-bold text-4xl py-10'>
               Yes You Are Right... I am Javascript Buff
@@ -132,6 +132,97 @@ const Home = () => {
               Javascript is one of the most top-ranked programming languages
               because of its ubiquitous us on all platform and mass adoption.
               Main use cases: Web Development.
+            </div>
+          </div>
+        </div>
+
+        {/* Dev stack */}
+        <div className='my-20'>
+          <div className='text-center h-52 bg-secondary'>
+            <h1 className='text-white font-bold text-4xl py-10'>
+              My Dev Stack
+            </h1>
+          </div>
+
+          <div className='md:mx-5 mx-32 shadow-2xl rounded-lg bg-gray-50 -mt-20 hover:bg-gray-700 hover:text-white'>
+            <div className='h-96'>
+              <lottie-player
+                src='https://assets4.lottiefiles.com/packages/lf20_aptscmnx.json'
+                background='transparent'
+                speed='1'
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div className='grid md:grid-cols-1 grid-cols-3 p-5'>
+              <div>
+                <h1 className='text-xl font-bold mb-1'>Frontend</h1>
+                <hr />
+                <div className='font-medium mt-2'>React</div>
+                <div className='font-medium mt-2'>Redux</div>
+                <div className='font-medium mt-2'>Redux Toolkit</div>
+                <div className='font-medium mt-2'>Next JS</div>
+                <div className='font-medium mt-2'>Gatsby JS</div>
+              </div>
+
+              <div className='text-center'>
+                <h1 className='text-xl font-bold mb-1'>UI / UX</h1>
+                <hr />
+                <div className='font-medium mt-2'>Bootstrap</div>
+                <div className='font-medium mt-2'>Material UI</div>
+                <div className='font-medium mt-2'>Semantic UI</div>
+                <div className='font-medium mt-2'>SASS</div>
+                <div className='font-medium mt-2'>Tailwind</div>
+                <h1 className='text-xl font-bold mt-3'>CMS</h1>
+                <div className='font-medium mt-2'>Strapi</div>
+              </div>
+
+              <div className='text-right'>
+                <h1 className='text-xl font-bold mb-1'>Languages</h1>
+                <hr />
+                <div className='font-medium mt-2'>HTML/CSS</div>
+                <div className='font-medium mt-2'>JavaScript</div>
+                <div className='font-medium mt-2'>Python</div>
+                <h1 className='text-xl font-bold mt-3'>Database</h1>
+                <div className='font-medium mt-2'>MYSQL</div>
+                <div className='font-medium mt-2'>DBMS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Dev Info */}
+        <div>
+          <div className='text-4xl text-center text-gray-500 font-bold'>
+            Who is Moazam ?
+          </div>
+          <div className='h-screen relative text-gray-800'>
+            <div className='h-full'>
+              <lottie-player
+                src='https://assets5.lottiefiles.com/packages/lf20_gja1z1ru.json'
+                background='transparent'
+                speed='1'
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div className='absolute inset-0 flex flex-col items-center justify-center'>
+              <h1 className='text-2xl font-bold'>
+                Hey Hi, Hello...
+                <hr />
+                <pre className='text-xl md:text-sm font-mont'>
+                  {JSON.stringify(
+                    {
+                      name: 'Moazam',
+                      age: '🤨',
+                      gender: 'Male',
+                      country: 'Pakistan',
+                    },
+                    null,
+                    2
+                  )}
+                </pre>
+              </h1>
             </div>
           </div>
         </div>
