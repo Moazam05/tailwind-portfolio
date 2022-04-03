@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Layout from '../components/Layout';
 import { projectsData } from '../resources/Projects';
 
+import AOS from 'aos';
+AOS.init({
+  duration: 1000,
+});
+
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Layout>
       <div className='mt-20'>
@@ -21,11 +30,20 @@ const Projects = () => {
             Good ideas are not adapted automatically. They must be driven into
             practice and courageous patience
           </p>
-          <h1 className='text-center text-4xl font-bold mt-5'>Because</h1>
+          <h1
+            className='text-center text-4xl font-bold mt-5'
+            data-aos='slide-up'
+          >
+            Because
+          </h1>
         </div>
         <div className='text-center font-semibold bg-secondary text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5'>
-          <h1 className='text-8xl uppercase md:text-3xl'>The GAME Is...</h1>
-          <h1 className='text-8xl uppercase md:text-3xl'>Consistency</h1>
+          <h1 className='text-8xl uppercase md:text-3xl' data-aos='slide-right'>
+            The GAME Is...
+          </h1>
+          <h1 className='text-8xl uppercase md:text-3xl' data-aos='slide-left'>
+            Consistency
+          </h1>
         </div>
       </div>
 

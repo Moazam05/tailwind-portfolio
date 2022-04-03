@@ -35,7 +35,11 @@ const Header = () => {
           }`}
         >
           <div className='flex justify-between items-center w-full'>
-            <h1 className='text-3xl  font-semibol'>Moazam</h1>
+            <Link to='/'>
+              <h1 className='text-3xl  font-semibol hover:text-yellow-500'>
+                Moazam
+              </h1>
+            </Link>
             <FaBars
               onClick={() => {
                 if (showMenu == 'md:hidden') {
@@ -53,7 +57,7 @@ const Header = () => {
               return (
                 <li
                   key={index}
-                  className={`list-none mx-5 p-1 ${
+                  className={`list-none mx-5 py-1 px-5 ${
                     pathName == key && 'bg-white text-black rounded'
                   }`}
                 >

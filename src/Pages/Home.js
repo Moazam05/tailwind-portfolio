@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaReact, FaBootstrap } from 'react-icons/fa';
 import {
   SiRedux,
@@ -14,7 +14,16 @@ import { AiFillHtml5 } from 'react-icons/ai';
 
 import Layout from '../components/Layout';
 
+import AOS from 'aos';
+AOS.init({
+  duration: 1000,
+});
+
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Layout>
       <div>
@@ -32,11 +41,11 @@ const Home = () => {
             </div>
 
             <div className='font-bold text-white md:px-5'>
-              <div className='text-7xl md:text-4xl'>
+              <div className='text-7xl md:text-4xl' data-aos='slide-right'>
                 Hii, I am <b className='text-yellow-500'>Moazam</b>
               </div>
 
-              <div className='text-4xl md:text-xl'>
+              <div className='text-4xl md:text-xl' data-aos='slide-left'>
                 Frontend <b className='text-red-500'>Developer</b>, React JS
               </div>
             </div>
@@ -44,7 +53,10 @@ const Home = () => {
         </div>
         {/* Technologies */}
         <div className='mt-16'>
-          <div className='text-blue-800 font-bold text-center text-4xl my-4'>
+          <div
+            className='text-blue-800 font-bold text-center text-4xl my-4'
+            data-aos='slide-up'
+          >
             Technologies i USE
           </div>
           <div className='grid md:grid-cols-1 grid-cols-4'>
@@ -119,7 +131,7 @@ const Home = () => {
           </div>
 
           <div className='md:mx-5 mx-32 shadow-2xl rounded-lg bg-gray-50 -mt-20 hover:bg-gray-700 hover:text-white'>
-            <div className='h-96'>
+            <div className='h-96' data-aos='zoom-in'>
               <lottie-player
                 src='https://assets6.lottiefiles.com/packages/lf20_sSF6EG.json'
                 background='transparent'
@@ -145,7 +157,7 @@ const Home = () => {
           </div>
 
           <div className='md:mx-5 mx-32 shadow-2xl rounded-lg bg-gray-50 -mt-20 hover:bg-gray-700 hover:text-white'>
-            <div className='h-96'>
+            <div className='h-96' data-aos='zoom-in'>
               <lottie-player
                 src='https://assets4.lottiefiles.com/packages/lf20_aptscmnx.json'
                 background='transparent'

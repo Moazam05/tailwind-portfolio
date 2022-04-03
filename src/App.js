@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import 'aos/dist/aos.css';
 
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
