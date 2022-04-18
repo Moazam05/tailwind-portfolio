@@ -44,8 +44,8 @@ const Footer = () => {
               >
                 <FaWhatsapp size={25} />
               </a>
-              {/* skype:myuser?userinfo" */}
               <a
+                className='sm:hidden'
                 href='skype:moazam05?userinfo'
                 target='_blank'
                 rel='noreferrer'
