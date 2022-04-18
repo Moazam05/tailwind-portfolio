@@ -40,7 +40,7 @@ const Courses = () => {
           need to know."
         </p>
         <h1
-          className='text-center text-4xl font-bold mt-5 md:text-3xl sm:text-3xl md:mb-3 sm:mb-3'
+          className='text-center text-4xl font-bold mt-5 sm:text-3xl md:mb-3 sm:mb-3'
           data-aos='slide-up'
         >
           Because
@@ -48,16 +48,10 @@ const Courses = () => {
       </div>
       <div className='mt-20 md:mt-5'>
         <div className='text-center font-semibold bg-gray-500 text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5'>
-          <h1
-            className='text-8xl uppercase md:text-xl sm:text-xl'
-            data-aos='slide-down'
-          >
+          <h1 className='text-8xl uppercase sm:text-xl' data-aos='slide-down'>
             learning Is...
           </h1>
-          <h1
-            className='text-8xl uppercase md:text-xl sm:text-xl'
-            data-aos='slide-up'
-          >
+          <h1 className='text-8xl uppercase sm:text-xl' data-aos='slide-up'>
             continuous
           </h1>
         </div>

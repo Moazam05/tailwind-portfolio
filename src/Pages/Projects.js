@@ -31,23 +31,17 @@ const Projects = () => {
             practice and courageous patience
           </p>
           <h1
-            className='text-center text-4xl font-bold mt-5 md:text-3xl sm:text-3xl md:mb-3 sm:mb-3'
+            className='text-center text-4xl font-bold mt-5 sm:text-3xl md:mb-3 sm:mb-3'
             data-aos='slide-up'
           >
             Because
           </h1>
         </div>
         <div className='text-center font-semibold bg-secondary text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5'>
-          <h1
-            className='text-8xl uppercase md:text-xl sm:text-xl'
-            data-aos='slide-right'
-          >
+          <h1 className='text-8xl uppercase sm:text-xl' data-aos='slide-right'>
             The GAME Is...
           </h1>
-          <h1
-            className='text-8xl uppercase md:text-xl sm:text-xl'
-            data-aos='slide-left'
-          >
+          <h1 className='text-8xl uppercase sm:text-xl' data-aos='slide-left'>
             Consistency
           </h1>
         </div>

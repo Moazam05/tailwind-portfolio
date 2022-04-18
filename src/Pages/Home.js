@@ -54,7 +54,7 @@ const Home = () => {
         {/* Technologies */}
         <div className='mt-16'>
           <div
-            className='text-blue-800 font-bold text-center text-4xl my-4 md:text-3xl sm:text-3xl'
+            className='text-blue-800 font-bold text-center text-4xl my-4 sm:text-3xl'
             data-aos='slide-up'
           >
             Technologies i USE
@@ -125,7 +125,7 @@ const Home = () => {
         {/* JavaScript Buff */}
         <div className='my-20'>
           <div className='text-center h-52 bg-primary'>
-            <h1 className='text-white font-bold text-4xl py-10 md:text-3xl sm:text-3xl md:mb-3 sm:mb-3'>
+            <h1 className='text-white font-bold text-4xl py-10 sm:text-3xl md:mb-3 sm:mb-3'>
               Yes You Are Right... I am Javascript Buff
             </h1>
           </div>
@@ -205,7 +205,7 @@ const Home = () => {
 
         {/* Dev Info */}
         <div>
-          <div className='text-4xl text-center text-gray-500 font-bold md:text-3xl sm:text-3xl'>
+          <div className='text-4xl text-center text-gray-500 font-bold sm:text-3xl'>
             Who is Moazam ?
           </div>
           <div className='h-screen relative text-gray-800'>

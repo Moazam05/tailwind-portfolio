@@ -23,7 +23,7 @@ const Contact = () => {
         </div>
 
         <div className='w-screen flex justify-center'>
-          <div className='md:w-full w-1/2 p-10 shadow-2xl bg-gray-50'>
+          <div className='md:w-full w-1/2 p-10 shadow-2xl bg-gray-50 md:mb-5 sm:mb-5'>
             <div className='text-2xl font-semibold'>
               Contact me to know more
             </div>

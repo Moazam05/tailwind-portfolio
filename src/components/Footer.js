@@ -37,11 +37,42 @@ const Footer = () => {
             <div className='text-gray-50 pb-5'>Designed and Developed By</div>
             <div className='h-1 border-2 border-gray-50 border-dotted'></div>
             <div className='flex text-white w-full justify-between py-3'>
-              <FaWhatsapp size={25} />
-              <FaSkype size={25} />
-              <FaLinkedin size={25} />
-              <FaMailBulk size={25} />
-              <FaGithub size={25} />
+              <a
+                href='https://wa.me/923134866442'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaWhatsapp size={25} />
+              </a>
+
+              <a
+                href='skype:<moazam05>?<action>'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaSkype size={25} />
+              </a>
+              <a
+                href='https://linkedin.com/in/moazam05'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaLinkedin size={25} />
+              </a>
+              <a
+                href='mailto:salmanmoazam08@gmail.com'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaMailBulk size={25} />
+              </a>
+              <a
+                href='https://github.com/Moazam05'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FaGithub size={25} />
+              </a>
             </div>
             <div className='h-1 border-2 border-gray-50 border-dotted'></div>
             <div className='text-gray-50 pt-5'>Salman Moazam</div>
