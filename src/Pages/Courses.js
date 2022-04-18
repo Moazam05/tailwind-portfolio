@@ -48,10 +48,16 @@ const Courses = () => {
       </div>
       <div className='mt-20 md:mt-5'>
         <div className='text-center font-semibold bg-gray-500 text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5'>
-          <h1 className='text-8xl uppercase md:text-3xl' data-aos='slide-down'>
+          <h1
+            className='text-8xl uppercase md:text-xl sm:text-xl'
+            data-aos='slide-down'
+          >
             learning Is...
           </h1>
-          <h1 className='text-8xl uppercase md:text-3xl' data-aos='slide-up'>
+          <h1
+            className='text-8xl uppercase md:text-xl sm:text-xl'
+            data-aos='slide-up'
+          >
             continuous
           </h1>
         </div>
