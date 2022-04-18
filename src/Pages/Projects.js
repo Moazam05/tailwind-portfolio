@@ -16,7 +16,7 @@ const Projects = () => {
   return (
     <Layout>
       <div className='mt-20'>
-        <div className='h-screen'>
+        <div className='h-screen md:mb-5 sm:mb-5'>
           <div className='h-3/4'>
             <lottie-player
               src='https://assets1.lottiefiles.com/packages/lf20_ygiuluqn.json'
@@ -37,9 +37,9 @@ const Projects = () => {
             Because
           </h1>
         </div>
-        <div className='text-center font-semibold bg-secondary text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5 md:mt-5 sm:mt-5'>
+        <div className='text-center font-semibold bg-secondary text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5'>
           <h1
-            className='text-8xl uppercase md:text-2xl sm:text-2xl'
+            className='text-8xl uppercase md:text-xl sm:text-xl'
             data-aos='slide-right'
           >
             The GAME Is...

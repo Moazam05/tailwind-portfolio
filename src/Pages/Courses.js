@@ -34,12 +34,15 @@ const Courses = () => {
         </div>
       </div>
       <div className='mt-20 md:mt-5'>
-        <p className='text-center text-xl font-semibold'>
+        <p className='text-center text-xl font-semibold md:px-2 sm:px-2'>
           "I can't teach people everything they need to knoe. The best I can do
           position them where they can find what they need to know when they
           need to know."
         </p>
-        <h1 className='text-center text-4xl font-bold mt-5' data-aos='slide-up'>
+        <h1
+          className='text-center text-4xl font-bold mt-5 md:text-3xl sm:text-3xl md:mb-3 sm:mb-3'
+          data-aos='slide-up'
+        >
           Because
         </h1>
       </div>
