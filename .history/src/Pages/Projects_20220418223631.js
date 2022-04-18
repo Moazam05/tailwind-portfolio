@@ -50,7 +50,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='mt-20 grid md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5 md:mb-3 sm:mb-3'>
+      <div className='mt-20 grid md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5'>
         {projectsData.map((project, index) => {
           const { image, title } = project;
           return (
