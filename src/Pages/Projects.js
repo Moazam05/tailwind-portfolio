@@ -37,7 +37,7 @@ const Projects = () => {
             Because
           </h1>
         </div>
-        <div className='text-center font-semibold bg-secondary text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5 md:my-3 sm:my-3'>
+        <div className='text-center font-semibold bg-secondary text-white mx-20 p-20 rounded-tl-full rounded-br-full md:mx-5 md:mt-5 sm:mt-5'>
           <h1
             className='text-8xl uppercase md:text-2xl sm:text-2xl'
             data-aos='slide-right'
